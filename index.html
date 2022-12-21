@@ -1,121 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
     <title>Jake West Resume</title>
     <link rel="stylesheet" href="octicons/octicons.css" />
-    <style type="text/css">
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        font: 16px Helvetica, Sans-Serif;
-        line-height: 24px;
-      }
-
-      .clear {
-        clear: both;
-      }
-
-      #page-wrap {
-        width: 800px;
-        margin: 40px auto 60px;
-      }
-
-      #pic {
-        float: right;
-        margin: -30px 0 0 0;
-      }
-
-      h1 {
-        margin: 0 0 16px 0;
-        padding: 0 0 16px 0;
-        font-size: 42px;
-        font-weight: bold;
-        letter-spacing: -2px;
-        border-bottom: 1px solid #999;
-      }
-
-      h2 {
-        font-size: 18px;
-        position: relative;
-        font-weight: 300;
-      }
-
-      h2 strong {
-        font-size: 20px;
-        padding: 0 5px 0 0;
-      }
-
-      h2 span {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        font-style: italic;
-        font-family: Georgia, Serif;
-        font-size: 16px;
-        color: #999;
-        font-weight: normal;
-      }
-
-      a {
-        color: #999;
-        text-decoration: none;
-        border-bottom: 1px dotted #999;
-      }
-
-      a:hover {
-        border-bottom-style: solid;
-        color: black;
-      }
-
-      ul {
-        margin: 0 0 0 17px;
-      }
-
-      #objective {
-        width: 500px;
-        float: left;
-      }
-
-      #objective p {
-        font-family: Georgia, Serif;
-        font-style: italic;
-        color: #666;
-      }
-
-      dt {
-        font-style: italic;
-        font-weight: bold;
-        font-size: 18px;
-        text-align: right;
-        width: 75px;
-        float: left;
-      }
-
-      dd {
-        width: 650px;
-        float: right;
-        border-left: 1px solid #999;
-        padding: 0 0 0 26px;
-      }
-
-      dd.clear {
-        float: none;
-        margin: 0;
-        height: 15px;
-        border-left: none;
-      }
-
-      .smartmargin {
-        margin: 10px 0 0 0;
-      }
-    </style>
-
+    <link rel="stylesheet" href="style.css" />
     <style type="text/css" media="print">
       .noprint {
         display: none;
@@ -172,12 +61,14 @@
         <dd>
           <h4><strong>Languages</strong></h4>
           <p>
-            C/C++, Python, Bash, Ansible, Puppet, SQL, HTML, CSS, Javascript,
+            C/C++, Python, Bash, SQL, Ansible, Puppet, HTML, CSS, Javascript,
             Java
           </p>
 
           <h4 class="smartmargin"><strong>Technologies</strong></h4>
-          <p>Git, Docker, Google Cloud Platform, UNIX, macOS, Windows</p>
+          <p>
+            Git, Django, Docker, Google Cloud Platform, UNIX, macOS, Windows
+          </p>
 
           <h4><strong>Technical Interests</strong></h4>
           <p>Tryhackme(Top 3%), Hack the Box, National Cyber League</p>
@@ -202,8 +93,8 @@
               8+ UL employees.
             </li>
             <li>
-              Utilized Python scripting to create a generic project directory,
-              reducing data review times by ~12 hours/week.
+              Utilized <u>Python</u> scripting to create a generic project
+              directory, reducing data review times by ~12 hours/week.
             </li>
             <li>
               Primary reviewer & advisor for all test results for accuracy and
@@ -262,7 +153,39 @@
         <dd class="clear"></dd>
         <dt>Personal Projects</dt>
         <dd>
-          <h4><strong>Project Directory Creation Script</strong></h4>
+          <h2>
+            <strong>Job Post Aggrigator</strong>
+            <a
+              href="https://github.com/jakewest35/Job_search_app"
+              target="_blank"
+              rel="noreferrer noopener"
+              >GitHub Repo</a
+            >
+            <span>Python, Django, Bootstrap</span>
+          </h2>
+          <ul>
+            <li>
+              Created using the Django web-framework, LinkedIn, and Indeed API's
+              made available through RapidAPI.
+            </li>
+            <li>
+              Takes a users search for their desired position and desired job
+              location then displays information related to the found job
+              postings such as location, company, date posted, and a link to the
+              job posting.
+            </li>
+            <li>Utilized Bootstrap for basic CSS styling and formatting.</li>
+          </ul>
+          <h2 class="smargmargin">
+            <strong>Project Directory Creation Script</strong>
+            <a
+              href="https://github.com/jakewest35/Directory-creation"
+              target="_blank"
+              rel="noreferrer noopener"
+              >GitHub Repo</a
+            >
+            <span>Python, Git</span>
+          </h2>
           <ul>
             <li>
               Allows for the automated creation of an overall project folder
@@ -271,22 +194,6 @@
             <li>
               All script updates & revisions are published through Git for ease
               of distribution.
-            </li>
-          </ul>
-          <h4><strong>HTTP Log Parser</strong></h4>
-          <ul>
-            <li>
-              Created as part of the CSCI 344 (Shell Programming) class using
-              Python3 and argparse for argument & flag handling.
-            </li>
-            <li>
-              Parses a log of HTTP requests and provides input based on
-              different flags entered by the user.
-            </li>
-            <li>
-              Can provide the number of times a specific resource was requested,
-              the IP address of the requester, and the number of requests
-              received during a given time period.
             </li>
           </ul>
         </dd>
@@ -298,7 +205,10 @@
         <dd class="clear noprint"></dd>
         <dt class="noprint">Links</dt>
         <dd class="noprint">
-          <a href="https://github.com/jakewest35/jakewest35.github.io"
+          <a
+            href="https://github.com/jakewest35/jakewest35.github.io"
+            target="_blank"
+            rel="noreferrer noopener"
             ><span
               class="octicon octicon-mark-github"
               style="position: relative; color: black; margin: 3px"
@@ -312,7 +222,7 @@
 
       <div class="clear"></div>
 
-      <p class="noprint">Last Updated: October 2, 2022</p>
+      <p class="noprint">Last Updated: December 20, 2022</p>
     </div>
   </body>
 </html>
