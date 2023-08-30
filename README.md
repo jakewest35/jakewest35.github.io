@@ -49,8 +49,8 @@ In this way, you can keep everything within this file (creating a CV) and remove
 
 These examples demonstrate how different fonts can be used.
 
-| Username | Webpage | Source |
-|----------|---------|--------|
-| [@gonsie](http://github.com/gonsie) | [Resume](http://gonsie.com/cv.html) | [On GitHub](https://github.com/gonsie/gonsie.github.io) |
-| [@annagons](http://github.com/annagons) | [Resume](http://anna.gonsie.com) | [On GitHub](https://github.com/annagons/annagons.github.io) |
-| [@mozhgan-kch](http://github.com/mozhgan-kch) | [Resume](http://mkchimeh.staff.shef.ac.uk) | [On GitHub](https://github.com/mozhgan-kch/mkch-webpage) |
+| Username                                      | Webpage                                    | Source                                                      |
+| --------------------------------------------- | ------------------------------------------ | ----------------------------------------------------------- |
+| [@gonsie](http://github.com/gonsie)           | [Resume](http://gonsie.com/cv.html)        | [On GitHub](https://github.com/gonsie/gonsie.github.io)     |
+| [@annagons](http://github.com/annagons)       | [Resume](http://anna.gonsie.com)           | [On GitHub](https://github.com/annagons/annagons.github.io) |
+| [@mozhgan-kch](http://github.com/mozhgan-kch) | [Resume](http://mkchimeh.staff.shef.ac.uk) | [On GitHub](https://github.com/mozhgan-kch/mkch-webpage)    |
