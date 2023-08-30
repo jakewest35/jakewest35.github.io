@@ -1,9 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
     <title>One Page Resume</title>
     <link rel="stylesheet" href="octicons/octicons.css" />
     <style type="text/css">
@@ -115,7 +113,10 @@
         margin: 10px 0 0 0;
       }
     </style>
-
+    <title>Jake West Resume</title>
+    <link rel="stylesheet" href="octicons/octicons.css" />
+    <link rel="stylesheet" href="style.css" />
+    >>>>>>> 38e9f5c3c6124e279c3a46d8b0f3dcf9bd93eba1
     <style type="text/css" media="print">
       .noprint {
         display: none;
@@ -290,13 +291,21 @@
 
         <dd class="clear"></dd>
         <dt>Personal Projects</dt>
-        <dd class="smartmargin">
-          <h4><strong>Gym-Buddy (Senior Capstone)</strong></h4>
-          <span>Flutter, Dart, Firebase, Git</span>
+        <dd>
+          <h2 class="smartmargin">
+            <strong>Gym-Buddy (Senior Capstone)</strong>
+            <a
+              href="https://github.com/jakewest35/Gym-Buddy"
+              target="_blank"
+              rel="noreferrer noopener"
+              >GitHub Repo</a
+            >
+            <span>Flutter, Dart, Firebase, Git</span>
+          </h2>
           <ul>
             <li>
-              A mobile fitness tracking application using <u>Flutter</u>,
-              enabling users to monitor exercises, diet, and journal entries.
+              A mobile fitness tracking application using Flutter, enabling
+              users to monitor exercises, diet, and journal entries.
             </li>
             <li>
               Created 3 core modules: exercise/workout tracker, daily diet log,
@@ -308,19 +317,50 @@
               development.
             </li>
           </ul>
-          <h4><strong>Job Post Aggrigator</strong></h4>
-          <span>Python, Django, Bootstrap</span>
+          <br />
+          <h2 class="smargmargin">
+            <strong>Job Post Aggrigator</strong>
+            <a
+              href="https://github.com/jakewest35/Job_search_app"
+              target="_blank"
+              rel="noreferrer noopener"
+              >GitHub Repo</a
+            >
+            <span>Python, Django, Bootstrap</span>
+          </h2>
           <ul>
             <li>
-              Created using the <u>Django</u> web-framework, LinkedIn, and
-              Indeed APIs made available through RapidAPI.
+              Created using the Django web-framework, LinkedIn, and Indeed API's
+              made available through RapidAPI.
             </li>
             <li>
-              Takes users' search for their desired position and job location
-              then displays information related to the found job postings such
-              as location, company, date posted, and a link to the job posting.
+              Takes a users search for their desired position and desired job
+              location then displays information related to the found job
+              postings such as location, company, date posted, and a link to the
+              job posting.
             </li>
-            <li>Utilized Bootstrap 5 for basic CSS styling and formatting.</li>
+            <li>Utilized Bootstrap for basic CSS styling and formatting.</li>
+          </ul>
+          <br />
+          <h2 class="smargmargin">
+            <strong>Project Directory Creation Script</strong>
+            <a
+              href="https://github.com/jakewest35/Directory-creation"
+              target="_blank"
+              rel="noreferrer noopener"
+              >GitHub Repo</a
+            >
+            <span>Python, Git</span>
+          </h2>
+          <ul>
+            <li>
+              Allows for the automated creation of an overall project folder
+              with n-number of top-level subdirectories.
+            </li>
+            <li>
+              All script updates & revisions are published through Git for ease
+              of distribution.
+            </li>
           </ul>
         </dd>
 
@@ -331,7 +371,10 @@
         <dd class="clear noprint"></dd>
         <dt class="noprint">Links</dt>
         <dd class="noprint">
-          <a href="https://github.com/jakewest35/jakewest35.github.io"
+          <a
+            href="https://github.com/jakewest35/jakewest35.github.io"
+            target="_blank"
+            rel="noreferrer noopener"
             ><span
               class="octicon octicon-mark-github"
               style="position: relative; color: black; margin: 3px"
@@ -345,7 +388,15 @@
 
       <div class="clear"></div>
 
-      <p class="noprint">Last Updated: August, 2023</p>
+      <p class="noprint">
+        Last Updated:
+        <script>
+          new Date().getMonth();
+        </script>
+        <script>
+          new Date().getFullYear();
+        </script>
+      </p>
     </div>
   </body>
 </html>
